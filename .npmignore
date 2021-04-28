@@ -1,0 +1,8 @@
+build/
+.eslintignore
+.eslintrc.js
+*.log
+test/
+src/
+
+coverage/
