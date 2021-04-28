@@ -32,11 +32,6 @@ describe("test format module", () => {
     expect(thousandsSeparatorFormat()).toBe("NaN");
   });
 
-  test("formatTime", () => {
-    expect(format.formatTime("2021-06-06", "YYYYMM")).toBe("202106");
-    expect(format.formatTime()).toBe("");
-  });
-
   test("numberUnitFormat", () => {
     expect(format.numberUnitFormat(100000)).toBe("10.00万");
     expect(format.numberUnitFormat(10000)).toBe("1.00万");

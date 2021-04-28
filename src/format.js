@@ -1,16 +1,4 @@
-import dayjs from "dayjs";
 import { xssFilter } from "./safe";
-
-/**
- * format datetime with dayjs
- * @param {Any} time
- * @param {String} format
- * @returns {String} time string formatted
- */
-export const formatTime = (time, format = "YYYY-MM-DD HH:mm:ss") => {
-  const temp = new Date(time);
-  return temp.getTime() ? dayjs(temp).format(format) : "";
-};
 
 /**
  * format number with chinese number unit
@@ -130,7 +118,6 @@ export const thousandsSeparatorFormat = (number) => {
 };
 
 export default {
-  formatTime,
   formatTimeDiff,
   getSign,
   getSignColor,
