@@ -1,6 +1,6 @@
 {
   "name": "utils-hb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "utils collection for hb frontend projects",
   "main": "index.js",
   "scripts": {
